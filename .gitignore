@@ -9,6 +9,7 @@
 /.asdf
 /bin
 /tmp
+/log
 
 # Ignore all logfiles and tempfiles.
 /log/*
