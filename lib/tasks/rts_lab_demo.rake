@@ -39,7 +39,8 @@ namespace :rts_labs do
       'It would be nice if it automatically used joins and includes, and never created multiple queries '\
       'unnecessarily (the n+1 problem).  If there was a use_case for something that acted like n+1, the programmer '\
       'could ask explicitly.'
+    puts ' '
     puts 'Along the same vein, it would be great if the SQL created by ActiveRecord magic was automatically optimized '\
-      'Some of this could be done by giving suggestions, such as remind the programmer to add an index on given field.'
+      'This could be partly done by giving suggestions, such as reminding the programmer to add a db index.'
   end
 end
