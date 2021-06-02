@@ -38,7 +38,6 @@ group :development, :test do
   gem 'pry'
   gem 'pry-rails'
   gem 'rspec-rails'
-
 end
 
 group :development do
@@ -50,17 +49,12 @@ group :development do
   gem 'rack-mini-profiler', '~> 2.0'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
-  # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
-  gem 'web-console', '>= 4.1.0'
 end
 
 group :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara'
   gem 'launchy' # `save_and_open_page` in integration specs
-  gem 'selenium-webdriver'
-  # Easy installation and use of web drivers to run system tests with browsers
-  gem 'webdrivers'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
